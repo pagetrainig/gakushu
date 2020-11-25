@@ -1,8 +1,7 @@
-container{
+/*.container{
   width:1700px ;
   margin: 0 auto;
-}
-
+}*/
 body{
   background-color: black;
   color: white;
@@ -11,8 +10,8 @@ body{
 .header{
   height:90px;
   border-bottom: 1px solid gray;
-  background-color:whitesmoke
-  color: black;
+  /*background-color:whitesmoke;
+  color: black;-->*/
 
 }
 .header-logo{
@@ -28,6 +27,7 @@ body{
 .header-list li{
   float:left;
   padding: 33px 20px;
+  font-size: 20px;
 }
 li{
  list-style: none;
@@ -84,10 +84,9 @@ input,textarea{
 footer{
   height:120px;
   border-top: 1px solid gray;
-  color:white;
-  background-colo: white;
-
-  /paddin: 40px;/
+  /*color:black;
+  background-color: white;
+  padding: 40px;*/
 }
 .footer-logo{
   float: left;
@@ -98,5 +97,6 @@ footer{
   float: right;
 }
 .footer-list li{
+  font-size: 20px;
   padding: 14px 70px 0px 0px;
 }
