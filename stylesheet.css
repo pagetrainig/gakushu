@@ -1,0 +1,102 @@
+container{
+  width:1700px ;
+  margin: 0 auto;
+}
+
+body{
+  background-color: black;
+  color: white;
+}
+
+.header{
+  height:90px;
+  border-bottom: 1px solid gray;
+  background-color:whitesmoke
+  color: black;
+
+}
+.header-logo{
+  float:left;
+  font-size: 32px;
+  padding: 20px 40px;
+}
+.header-list a,.footer-list a{
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+.header-list li{
+  float:left;
+  padding: 33px 20px;
+}
+li{
+ list-style: none;
+}
+
+.main{
+  padding: 100px 80px
+}
+.copy-container h1{
+  font-size: 140px;
+}
+
+.copy-container h2{
+  font-size: 60px;
+}
+.contents{
+  margin-top: 100px;
+  height: 500px;
+}
+.section-title{
+  font-size: 28px;
+}
+
+.contents-item{
+  float:left;
+  margin-right: 40px;
+}
+.contents-item a{
+  color: dimgray;
+  font-size: 24px;
+}
+.link{
+  margin-top: 50px;
+}
+.contents-link{
+  margin-right: 40px;
+  color: gray;
+  font-size: 24px
+}
+.contact-form{
+  margin-top: 100px;
+}
+.contact-submit{
+  background-color: dimgray;
+}
+
+input,textarea{
+
+  padding:20px;
+  width: 400px;
+  font-size: 18px;
+}
+
+footer{
+  height:120px;
+  border-top: 1px solid gray;
+  color:white;
+  background-colo: white;
+
+  /paddin: 40px;/
+}
+.footer-logo{
+  float: left;
+  font-size: 32px;
+  padding: 35px 40px;
+}
+.footer-list {
+  float: right;
+}
+.footer-list li{
+  padding: 14px 70px 0px 0px;
+}
