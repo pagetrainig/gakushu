@@ -2,6 +2,13 @@
   width:1700px ;
   margin: 0 auto;
 }*/
+a{
+  text-decoration: none;
+}
+body a:hover{
+  color:  blue;
+
+}
 body{
   background-color: black;
   color: white;
@@ -16,18 +23,21 @@ body{
 }
 .header-logo{
   float:left;
-  font-size: 35px;
-  padding: 12px 40px 0px 40px;
+  font-size: 36px;
+  line-height: 90px;
+  padding:0px 40px;
 }
-.header-list a,.footer-list a{
+.header-list a{
   color: white;
   display: block;
   text-decoration: none;
 }
 .header-list li{
   float:left;
-  padding:26px 20px 0px 0px;
-  font-size: 20px;
+  line-height: 90px;
+  padding-right: 30px;
+  font-size: 19px;
+  font-weight: bold;
 }
 li{
  list-style: none;
@@ -41,29 +51,35 @@ li{
 }
 
 .copy-container h2{
-  font-size: 60px;
+  font-size: 55px;
 }
 .contents{
-  margin-top: 100px;
-  height: 500px;
+  margin: 100px 0 60px 0 ;
+  height: 850px;
+  widt: auto;
 }
 .section-title{
   font-size: 28px;
+  pointer-events: none;
 }
 
 .contents-item{
   float:left;
-  margin-right: 40px;
+  margin-right: 100px;
 }
 .contents-item a{
   color: dimgray;
   font-size: 24px;
+  display: block;
 }
 .link{
   margin-top: 50px;
+  display: block;
+  width: auto;
 }
 .contents-link{
-  margin-right: 40px;
+  display: inline-block;
+  margin-right: 100px;
   color: gray;
   font-size: 24px
 }
@@ -94,13 +110,20 @@ footer{
 }
 .footer-logo{
   float: left;
-  font-size: 35px;
+  font-size: 36px;
   padding: 35px 40px;
 }
 .footer-list {
   float: right;
 }
+.footer-list a{
+  color: white;
+  display: block;
+  text-decoration: none;
+}
 .footer-list li{
-  font-size: 20px;
-  padding: 14px 70px 0px 0px;
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 40px;
+  padding-right: 60px ;
 }
