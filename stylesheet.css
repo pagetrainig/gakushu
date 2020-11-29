@@ -13,6 +13,9 @@ body{
   background-color: black;
   color: white;
 }
+.clear{
+  clear:left;
+}
 
 .header{
   height:90px;
@@ -55,8 +58,6 @@ li{
 }
 .contents{
   margin: 100px 0 60px 0 ;
-  height: 850px;
-  widt: auto;
 }
 .section-title{
   font-size: 28px;
