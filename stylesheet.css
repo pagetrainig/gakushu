@@ -57,7 +57,8 @@ li{
   font-size: 55px;
 }
 .contents{
-  margin: 100px 0 60px 0 ;
+  margin: 100px  0 ;
+  padding: 10px 0;
 }
 .section-title{
   font-size: 28px;
@@ -74,9 +75,9 @@ li{
   display: block;
 }
 .link{
-  margin-top: 50px;
+  margin: 100px 0px;
+  padding: 10px 0;
   display: block;
-  width: auto;
 }
 .contents-link{
   display: inline-block;
