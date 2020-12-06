@@ -1,6 +1,10 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
 text-align: center;
-margin:auto;
+margin: 0 auto;
 }
 a{
   text-decoration:none ;
@@ -9,6 +13,12 @@ a{
 }
 .header-list a:hover, footer a:hover{
   background-color: rgba(255,255,255,0.5);
+}
+.fa.menu-icon {
+  color: white;
+  font-size: 30px;
+  padding-top: 20px;
+  display: none;
 }
 .lesson-wrapper a:hover,.sites a:hover,.sns a:hover{
   opacity:0.7 ;
@@ -23,7 +33,7 @@ li{
   line-height: 70px;
   font-size: 30px;
   text-align: left;
-  margin-left: 150px;
+  margin-left: 90px;
 }
 .header-list{
   height:70px;
@@ -34,6 +44,9 @@ header li{
   line-height: 70px;
   display: inline-block;
   margin:0 15px;
+}
+.clear{
+  float: both;
 }
 header a{
   color: white;
