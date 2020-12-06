@@ -20,7 +20,10 @@
 footer ul{
   display:none;
 }
-
+a{
+  font-size: 18px;
+}
+  
 }
 
 @media(min-width:670px ){
