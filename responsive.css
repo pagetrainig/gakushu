@@ -10,8 +10,12 @@
 .top-wrapper h2{
   font-size: 19px;
 }
+ h2 .sp{
+  display: block;
+}
 .fa.menu-icon{
   display: block;
+  text-align: center;
 }
 .header-list ul{
   display: none;
@@ -20,4 +24,10 @@ footer ul{
   display:none;
 }
 
+}
+
+@media(min-width:670px ){
+  .sp{
+    display: none;
+  }
 }
