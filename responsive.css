@@ -1,10 +1,14 @@
 
 @media (max-width:670px ) {
+.header-logo{
+  text-align: center;
+  margin: auto;
+}
 .top-wrapper h1{
  font-size: 23px;
 }
 .top-wrapper h2{
-  font-size: 21px;
+  font-size: 19px;
 }
 .fa.menu-icon{
   display: block;
