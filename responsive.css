@@ -4,6 +4,9 @@
   text-align: center;
   margin: auto;
 }
+.top-wrapper{
+  margin-bottom:auto;
+}
 .top-wrapper h1{
  font-size: 23px;
 }
