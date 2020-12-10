@@ -27,6 +27,13 @@ li{
   list-style: none;
   font-weight: bold;
 }
+.image{
+  background-image: url("svg_f_business_30_0bg.svg");
+  background-repeat: no-repeat;
+  background-position: center ;
+  height: 480px;
+  width: 100%;
+}
 .header-logo{
   height: 70px;
   line-height: 70px;
@@ -50,8 +57,12 @@ header li{
 header a{
   color: white;
 }
+{
+
+}
+
 .top-wrapper,.lesson-wrapper,.sites,.sns,.message-wrapper {
-  margin: 100px 0;
+  margin: 80px 0;
 }
 .top-wrapper h3,.lesson-wrapper h3,.sites h3,.sns h3,.message-wrapper h3{
 margin-bottom: 20px;
