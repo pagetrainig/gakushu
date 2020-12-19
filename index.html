@@ -16,41 +16,58 @@
 <div class="header-list">
 <span class="fa fa-bars menu-icon"></span>
 <ul>
-<li><a href="#test1">学習アプリ</a></li>
-<li><a href="#test2">参考サイト</a></li>
-<li><a href="#test3">SNS</a></li>
-<li><a href="#test4">お問い合わせ</a></li>
+<li><a href="#test1">自作アプリ</a></li>
+<li><a href="#test2">学習アプリ</a></li>
+<li><a href="#test3">参考サイト</a></li>
+<li><a href="#test4">参考SNS</a></li>
+<li><a href="#test5">お問い合わせ</a></li>
 </ul>
 </div>
 </header>
 
-
 <div class="top-wrapper">
-<h1>ホームページ制作【初心者】</h1>
+<h1>Web制作【初心者】</h1>
 <h2>制作で使用している学習アプリ・<br class="sp">参考サイトを紹介</h2>
 </div>
 <div class="image">
 </div>
+
 <div class="lesson-wrapper">
-<h3 id="test1">学習アプリ</h3>
+<h3 id="test1">自作Webアプリ</h3>
+<input type="image" src="syougatsu2_omijikuji2.png" id="omikuji_btn">
+<script>
+document.getElementById("omikuji_btn").onclick = function(){
+var rnd = Math.floor( Math.random() * 6 );
+var omikuji;
+if (rnd === 0) omikuji = "大吉";
+if (rnd === 1) omikuji = "吉";
+if (rnd === 2) omikuji = "中吉";
+if (rnd === 3) omikuji = "小吉";
+if (rnd === 4) omikuji = "末吉";
+if (rnd === 5) omikuji = "凶";
+alert(omikuji);
+}
+</script>
+<p>クリックしておみくじを引く</p>
+
+<h3 id="test2">学習アプリ</h3>
 <a href="https://prog-8.com">Progate</a>
 <p>わかりやすいスライド形式</p>
-<a href="https://prog-8.com/languages/html">HTML & CSS</a>
-<p>ホームページの見た目を作るテキスト</p>
+
 <a href="https://atom.io">Atom</a>
 <p>テキストを入力するツール</p>
 <a href="https://github.co.jp">GitHub Pages</a>
 <p>作ったホームページをネットへのせる</p>
 </div>
 <div class="sites">
-<h3 id="test2">参考サイト</h3>
+<h3 id="test3">参考サイト</h3>
 <a class="site" href="https://techacademy.jp/magazine/category/webdesign/html">Tech Academy</a>
 <p>わかりやすい解説記事がたくさん</p>
 <a class="site" href="https://tech-camp.in/note/tag/html/">TECH CAMP</a>
 <p>わかりやすい解説記事がたくさん</p>
 </div>
 <div class="sns">
-<h3 id="test3">SNS</h3>
+<h3 id="test4">参考SNS</h3>
 <a class="twitter" href="https://mobile.twitter.com/?lang=ja">Twitter</a>
 <p>いろいろなスタイルを参考</p>
 <h3>YouTube</h3>
@@ -58,7 +75,7 @@
 <p>チャンネルでいろいろな学習</p>
 </div>
 <div class="message-wrapper">
-<h3 id="test4">お問い合わせ</h3>
+<h3 id="test5">お問い合わせ</h3>
 <p>メールアドレス</p>
 <input class="inp">
 <p>お問い合わせ内容</p>
@@ -69,9 +86,10 @@
 <footer>
 <span class="fa fa-bars menu-icon"></span>
 <ul>
-<li><a href="#test1">学習アプリ</a></li>
-<li><a href="#test2">参考サイト</a></li>
-<li><a href="#test3">SNS</a></li>
+<li><a href="#test1">自作アプリ</a></li>
+<li><a href="#test2">学習アプリ</a></li>
+<li><a href="#test3">参考サイト</a></li>
+<li><a href="#test4">参考SNS</a></li>
 </ul>
 </footer>
 
