@@ -2,11 +2,14 @@
 @media (max-width:670px ) {
 .header-logo{
   text-align: center;
-  margin: auto;
+  margin:0 auto;
 }
 /**.top-wrapper{
-  margin-bottom:auto;
+
 }**/
+.image{
+  height: 350px;
+}
 .top-wrapper h1{
  font-size: 23px;
 }
@@ -32,5 +35,11 @@ a{
 @media(min-width:670px ){
   .sp{
     display: none;
+  }
+  .image{
+    background-size: cover;
+    height:350px;
+    width:500px;
+    margin: auto;
   }
 }
