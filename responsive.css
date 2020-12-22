@@ -8,7 +8,8 @@
 
 }**/
 .image{
-  height: 350px;
+  height: 250px;
+  background-size: cover;
 }
 .top-wrapper h1{
  font-size: 23px;
