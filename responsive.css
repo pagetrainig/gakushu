@@ -4,9 +4,9 @@
   text-align: center;
   margin:0 auto;
 }
-/**.top-wrapper{
-
-}**/
+.top-wrapper{
+margin:30px 0px;
+}
 .image{
   height: 250px;
   background-size: cover;
