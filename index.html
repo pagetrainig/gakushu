@@ -28,7 +28,7 @@
 
 <div class="top-wrapper">
 <h1>Webサイト制作【独学】</h1>
-<h2>制作で使用している<br class="sp">自作アプリ・参考サイトを紹介</h2>
+<h2>自作アプリ・学習アプリ<br class="sp">参考サイトを紹介</h2>
 </div>
 <div class="image">
 </div>
@@ -38,11 +38,11 @@
 <input type="image" src="syougatsu2_omijikuji2.png" id="omikuji_btn">
 <script>
 var results = ["大吉","吉","中吉","小吉","末吉","凶"];
-document.getElementById("omikuji_btn").onclick = function(){
+$('#omikuji_btn').on('click', function(){
 var random = Math.floor( Math.random() * results.length );
 var result =  results[random];
 alert(result);
-}
+});
 </script>
 <p>クリックしておみくじを引く</p>
 
