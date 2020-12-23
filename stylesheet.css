@@ -56,17 +56,17 @@ header li{
 header a{
   color: white;
 }
-.top-wrapper,.lesson-wrapper,.sites,.sns,.message-wrapper {
-  margin: 70px 0;
+.app-wrapper,.top-wrapper,.lesson-wrapper,.sites,.sns,.message-wrapper {
+  margin: 100px 0;
 }
-.top-wrapper h3,.lesson-wrapper h3,.sites h3,.sns h3,.message-wrapper h3{
-margin-bottom: 20px;
+.app-wrapper h3,.top-wrapper h3,.lesson-wrapper h3,.sites h3,.sns h3,.message-wrapper h3{
+margin-bottom: 30px;
 }
-.lesson-wrapper p,.sites p,.sns p{
+.app-wrapper p,.lesson-wrapper p,.sites p,.sns p{
   margin:  50px auto;
 }
 .top-wrapper h1{
-  font-size: 30px;
+  font-size: 20px;
 }
 #omikuji_btn{
   display: block;
