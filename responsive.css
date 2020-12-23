@@ -7,10 +7,7 @@
 .top-wrapper{
 margin:30px 0px;
 }
-.image{
-  height: 250px;
-  background-size: cover;
-}
+
 .top-wrapper h1{
  font-size: 23px;
 }
@@ -30,17 +27,15 @@ footer ul{
 a{
   font-size: 18px;
 }
+.image{
+  background-size: cover;
+  height: 250px;
+}
 
 }
 
 @media(min-width:670px ){
   .sp{
     display: none;
-  }
-  .image{
-    background-size: cover;
-    height:350px;
-    width:500px;
-    margin: auto;
   }
 }
